@@ -1,0 +1,66 @@
+.common {
+  display: flex;
+  background-color: rgb(173, 216, 230);
+}
+
+.common div {
+  width: 50%;
+  height: 50px;
+  background-color: rgb(128, 128, 128);
+}
+.first-flex div {
+  margin: 10px;
+}
+#firstA {
+  margin-right: 0px;
+}
+
+.second-flex div {
+  margin: 15px;
+}
+#secondA,
+#secondB {
+  margin-right: 0px;
+}
+
+.third-flex div {
+  margin: 12px;
+  width: auto;
+  /* flex-grow: 1; */
+  /* width: calc((100%/3)/2); */
+  width: calc(1219.33px / 4);
+  border: 2px solid #000;
+}
+
+#thirdA {
+  margin-right: 0px;
+  width: calc((1219.33px / 2));
+  /* width: 50%; */
+  /* flex-grow: 2; */
+}
+
+#thirdB {
+  margin-right: 0px;
+}
+
+.fourth div {
+  margin: 12px;
+  border: 2px solid #000;
+  /* width: 23.4774%; */
+}
+#fourth1,
+#fourth2,
+#fourth3 {
+  margin-right: 0px;
+}
+#fourth5 {
+  margin-top: 0px;
+  flex-grow: 1;
+}
+.foot div {
+  flex-grow: 1;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 2px solid #000;
+}
